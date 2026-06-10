@@ -5,7 +5,7 @@ NHN 아카데미 팀 프로젝트 **BeanSolid(온라인 도서 쇼핑몰)** 서�
 쿠폰 정책의 생성·관리부터 대규모 사용자를 위한 발급·사용·조회 기능을 전담 개발했으며, **DDD(Domain-Driven Design) 기반 설계**와 **RabbitMQ 비동기 메시징 구조**를 적용하여 대용량 트래픽 환경에서의 확장성과 안정성을 확보하는 데 집중했습니다.
 
 - **개발 기간**: 2025.06.02 ~ 2025.07.25 (약 2개월)
-- **담당 역할**: Coupon API 모듈 전체 아키텍처 설계, DB 모델링 및 API 구현 (기여도 100%)
+- **담당 역할**: Coupon API 모듈 전체 아키텍처 설계, DB 모델링 및 API 구현
 - **전체 프로젝트 저장소**: [nhnacademy-be10-BeanSolid](https://github.com/nhnacademy-be10-BeanSolid)
 
 ---
