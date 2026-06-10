@@ -51,7 +51,7 @@ NHN 아카데미 팀 프로젝트 **BeanSolid** 온라인 도서 쇼핑몰의 **
 NHN 아카데미 팀 프로젝트 **BeanSolid**의 데이터베이스 설계입니다.  
 DDD를 적용하여 도메인별로 테이블을 분리하고, 특히 **쿠폰과 주문 서비스 연동**에 중점을 두었습니다.
 
-!(/docs/images/coupon-erd.png)
+![BeanSolid BookStore ERD](docs/coupon-erd.png)
 
 **쿠폰 관련 핵심 테이블**
 - `coupons` — 쿠폰 정책 관리
