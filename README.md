@@ -83,13 +83,21 @@ NHN 아카데미 팀 프로젝트 **BeanSolid** 온라인 도서 쇼핑몰의 �
 
 ---
 
-## 코드 품질 (SonarQube 기준)
+## 코드 품질 관리 (Code Quality)
 
-- **Test Coverage**: 84.1%
-- **Duplications**: 0.0%
-- **Reliability**: A
-- **Security**: A
-- **Maintainability**: A
+정적 분석 도구인 **SonarQube**를 도입하여 지속적으로 코드 스멜을 제거하고, 엄격한 테스트 코드를 작성함으로써 프로젝트의 안정성과 유지보수성을 극대화했습니다.
+
+![SonarQube 지표](docs/coupon-API.png)
+
+### 주요 분석 지표
+- **Test Coverage (테스트 커버리지)**: **84.1%** (`696 lines`) 확보
+  - 비즈니스 로직이 집중된 Service 레이어와 예외 처리 케이스(12개 에러 코드)에 대한 단위 테스트 및 통합 테스트를 철저히 수행했습니다.
+- **Duplications (코드 중복률)**: **0.0%** (`2.7k lines`)
+  - 공통 로직을 static 메서드나 별도 컴포넌트로 분리하고, 구조적인 리팩토링을 통해 중복 코드를 완벽하게 제거했습니다.
+- **3대 보안/신뢰성 지표 올 A 등급 (All A Grades)**
+  - **Security (보안성)**: `A` (Open Issues 0개, Security Hotspots 0개)
+  - **Reliability (신뢰성)**: `A` (Open Issues 0개)
+  - **Maintainability (유지보수성)**: `A` (Open Issues 0개)
 
 ---
 
