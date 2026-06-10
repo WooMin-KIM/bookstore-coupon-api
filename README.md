@@ -76,7 +76,7 @@ NHN 아카데미 팀 프로젝트 **BeanSolid** 온라인 도서 쇼핑몰의 �
 **해결 방안 (Solution)** - **서비스 인스턴스 다중화 (Scale-out):** `Coupon-API` 서버를 다중화(Port 10352, 10353)하고 `Spring Cloud Gateway`를 통해 트래픽을 로드 밸런싱하도록 구성했습니다.
 - **메시지 큐 기반 비동기 처리:** 대량의 발급 요청을 `RabbitMQ` 큐에 즉시 적재하여 클라이언트에게는 빠른 응답을 반환하고, 실제 발급 로직은 백그라운드에서 비동기적으로 안전하게 처리했습니다.
 
-![RabbitMQ Architecture](이미지_경로/RabbitMQ.png)
+![RabbitMQ Architecture](docs//RabbitMQ.png)
 
 **결과 (Result)** - 요청 집중 시에도 코어 서비스의 CPU/메모리 부하를 안정적인 수준으로 유지했습니다.
 - 부하 테스트를 통해 대규모 트래픽 환경에서도 누락 없는 안정적인 쿠폰 발급 흐름을 검증했습니다.
