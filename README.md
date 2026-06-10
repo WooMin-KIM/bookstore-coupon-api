@@ -46,6 +46,13 @@ NHN 아카데미 팀 프로젝트 **BeanSolid** 온라인 도서 쇼핑몰의 **
 
 ---
 
+## Coupon Domain ERD
+
+쿠폰 정책, 사용자 쿠폰 발급, 적용 대상(도서/카테고리)을
+관리하기 위해 아래와 같이 도메인을 설계했습니다.
+
+![Coupon ERD](docs/coupon-erd.png)
+
 ## Trouble Shooting
 
 ### 1. 쿠폰 발급 요청 집중으로 인한 서버 부하 문제
